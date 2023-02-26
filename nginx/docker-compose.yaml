@@ -1,0 +1,9 @@
+
+version: '3'
+
+services:
+  reverse:
+    container_name: reverse
+    image: nginx-reverse-proxy
+    ports:
+    - 8080:8080
